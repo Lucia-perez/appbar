@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Cafetería LUCIA</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <!-- 
+    ##############################
+    #         CABECERA           #
+    ##############################
+        Un grupo de navegación o contenido introductorio. 
+        Un elemento header normalmente contiene una sección de encabezado 
+        (un elemento h1-h6 o un elemento hgroup), 
+        pero puede contener otro tipo de elementos, 
+        como una tabla de contenidos, 
+        un formulario de búsqueda 
+        o cualquier logo importante.
+        En HTML5 usariamos la etiqueta HEADER
+    -->
+        <div id="cabecera">
+            <img src="images/cafe.jpg" alt="Muestra una imagen de un cafe">
+            <h1>Cafetería <span class='spanverde'>LUCIA</span></h1>
+        </div>
+        <!-- 
+    ##############################
+    #         NAVEGACIÓN         #
+    ##############################
+El elemento <nav> representa una sección de una página 
+que enlaza con otras páginas o partes de la misma página: 
+una sección con enlaces de navegación.
+-->
+        <div id="nav">
+            <ul id="menu">
+                <li><a class="active" href="#informacion">Información</a></li>
+                <li><a href="#desayuno">Desayuno</a></li>
+                <li><a href="#bocadillos">Bocadillos</a></li>
+                <li><a href="#Bollería">Bollería</a></li>
+                <li><a href="#pizzas">Pizzas</a></li>
+                <li><a href="#Bebidas">Bebidas</a></li>
+                <li><a href="#reserva">Reserva tu pedido</a></li>
+                <li><a href="#video">Vídeo</a></li>
+               
+            </ul>
+        </div>
+
+        <div id="contenido">
+            <div id="informacion" class="apartado">
+                <h1>Información Codiv-19</h1>
+                <img src="images/informacion.png" alt="Imagen donde se muestra una mascarilla puesta en la bola del mundo">
+                <p>
+                    <i><strong>Barra</strong></i><span id="letraverde"> se recomienda el menor número de personas en la barra si esta no tiene un tamaño que permita la separación entre trabajadores. Se mantiene el servicio en mesa o se pide al cliente que recoja el pedido
+                    en la barra, para evitar el acercamiento entre personal y clientes.</span>
+                </p>
+                <p>
+                    <i><strong>Sala</strong></i><span id="letraroja"> se deberá reestructurar la disposición de las mesas en la sala con el fin de respetar el régimen de distancias entre ellas, que deberá ser de 1,5 metros.</span> Habrá geles de hidroalcohol en la entrada del local y a la
+                    salida de los aseos.
+                </p>
+                <p>
+                    <i><strong>Recepción de pedidos:</strong></i><mark> es importante establecer diferentes rangos horarios para la recepción de las mercancías para poder desinfectar la zona de recepción entre pedido y pedido.</mark>
+                    </p<p>
+                    Se eliminarán los envoltorios de los productos antes de que entren en el local, se desinfectarán, uno por uno, y los productos frescos entrarán en box de plástico previamente desinfectado.
+                </p>
+
+            </div>
+            <div id="desayuno" class="apartado">
+                <h1>Desayuno</h1>
+                <img src="images/desayuno.jpg" alt="Imagen donde se muestra un desayuno">
+
+                <ul>
+                    <li>Café o zumo + tostada jamón
+                        <ul>
+                            <li>Entera: 3.00€</li>
+                            <li>Media: 2.20€</li>
+                        </ul>
+                    </li>
+                    <li>Café o zumo + tostada aceite
+                        <ul>
+                            <li>Entera: 2.60€</li>
+                            <li>Media: 1.90€</li>
+                        </ul>
+                    </li>
+                    <li>Café o zumo + tostada mantequilla
+                        <ul>
+                            <li>Entera: 2.00€</li>
+                            <li>Media: 1.50€</li>
+                        </ul>
+                    </li>
+                    <li>Café o zumo + tostada sobrasada
+                        <ul>
+                            <li>Entera: 3.00€</li>
+                            <li>Media: 2.20€</li>
+                        </ul>
+                    </li>
+                    <li>Café o zumo + tostada jamón york y queso
+                        <ul>
+                            <li>Entera: 3.00€</li>
+                            <li>Media: 2.20€</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="bocadillos" class="apartado">
+                <h1>Bocadillos</h1>
+                <img src="images/bocadillo.jpg" alt="Imagen donde se muestra un bocadillo">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Bocadillo</th>
+                        <th>Ingrediente</th>
+                        <th>Tipo de pan</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Bocadillo de salchichón</td>
+                        <td>Salchichón</td>
+                        <td>Normal, integral y pan de semillas</td>
+                        <td>1.20€</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bocadillo de mortadela</td>
+                        <td>Mortadela</td>
+                        <td>Normal, integral y pan de semillas</td>
+                        <td>1.20€</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Bocadillo de pavo</td>
+                        <td>Pavo</td>
+                        <td>Normal, integral y pan de semillas</td>
+                        <td>1.20€</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Bocadillo de sobrasada</td>
+                        <td>Sobrasada</td>
+                        <td>Normal, integral y pan de semillas</td>
+                        <td>1.20€</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Bocadillo de lomo</td>
+                        <td>Lomo</td>
+                        <td>Normal, integral y pan de semillas</td>
+                        <td>1.70€</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Bocadillo de jamón</td>
+                        <td>Jamón</td>
+                        <td>Normal, integral y pan de semillas</td>
+                        <td>1.40€</td>
+                    </tr>
+                </table>
+            </div>
+
+
+           
+            <div id="Bollería" class="apartado">
+                <h1>Bollería</h1>
+                <img src="images/croisant.jpg" alt="Imagen donde se muestra un croisant">
+
+                <ul>
+                    <li>Croissant 1.00€</li>
+                    <li>Croissant de chocolate 1.20€</li>
+                    <li>Palmerita de chocolate negro 1.00€</li>
+                    <li>Palmerita de chocolate blanco 1.00€</li>
+                    <li>Donuts 1.00€</li>
+                    <li>Caña de chocolate 1.00€</li>
+
+                </ul>
+            </div>
+            <div id="pizzas" class="apartado">
+                <h1>Pizzas</h1>
+                <img src="images/pizza.jpg" alt="Imagen donde se muestra una pizza">
+
+                <ul>
+                    <li>Pizza jamón york 1.50€</li>
+                    <li>Pizza atún 1.50€</li>
+                    <li>Pizza jamón serrano 1.50€</li>
+                    <li>Pizza cuatro quesos 1.50€</li>
+                    
+                </ul>
+            </div>
+            <div id="Bebidas" class="apartado">
+                <h1>Bebidas</h1>
+                <img src="images/bebidas.jpg" alt="Imagen donde se muestra bebidas">
+
+                <ul>
+                    <li>Refrescos 1.50€</li>
+                    <li>Zumos 1.50€</li>
+                    <li>Cafés 1.00€</li>
+                    <li>Cerveza 1.50€</li>
+                    
+                </ul>
+            </div>
+            <div id="reserva" class="apartado">
+                <h1>Reserva tu pedidos</h1>
+                <img src="images/reserva.jpg" alt="Imagen donde se muestra una persona con un movil">
+
+
+                <form action="#" target="" method="get" name="formDatosPersonales">
+
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Nombre" required/>
+                    <br>
+                    <label for="hora de recogida">Hora de Recogida</label>
+                    <input type="time" required/>
+                    <br>
+
+                    <label for="bocadillo-select">Elige Bocadillo:</label>
+                    <select name="bocadillo" id="bocadillo-select">
+                    <option value="">--Elige Bocadillo--</option>
+                    <option value="salchichón">Salchichón</option>
+                    <option value="mortadela">Mortadela</option>
+                    <option value="pavo">Pavo</option>
+                    <option value="sobrasada">Sobrasada</option>
+                    <option value="lomo">Lomo</option>
+                    <option value="jamón">Jamón</option>
+                    </select>
+                    <br>
+
+                    <label for="bollería-select">Elige Bollería:</label>
+                    <select name="bollería" id="bollería-select">
+                        <option value="">--Elige Bolleria--</option>
+                        <option value="Croissant">Croissant</option>
+                        <option value="Croissant de chocolate">Croissant de chocolate</option>
+                        <option value="Palmerita de chocolate negro">Palmerita de chocolate negro</option>
+                        <option value="Palmerita de chocolate blanco">Palmerita de chocolate blanco</option>
+                        <option value="Donuts">Donuts</option>
+                        <option value="Caña de chocolate">Caña de chocolate</option>
+                        </select>
+                        <br>
+
+                    <label for="pizza-select">Elige Pizza:</label>
+                    <select name="pizza" id="pizza-select">
+                        <option value="">--Elige Pizza--</option>
+                        <option value="Jamón York">Jamón York</option>
+                        <option value="Atún">Atún</option>
+                        <option value="Jamón Serrano">Jamón Serrano</option>
+                        <option value="Cuatro Quesos">Cuatro quesos</option>
+                        </select>
+                        <br>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" for="mensaje" placeholder="Deja un comentario sobre el pedido" maxlength="300"></textarea>
+
+                    <input type="submit" name="enviar" value="Enviar" />
+                </form>
+            </div>
+
+            <div id="video" class="apartado">
+                <h1><i> Como decorar café</i></h1>
+                <p><span id="letravioleta"> Aprender a dibujar en el Café</span></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ppPF9r6UcrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br>
+
+
+            <br>
+        </div>
+        <!-- 
+         ##############################
+         #      PIE DE PÁGINA         #
+         ##############################
+
+    En HTML5 usamos la etiqueta <footer>    
+    Representa el pie de una sección. Un pie tradicionalmente contiene 
+    información acerca de su sección, como quién escribió el contenido, 
+    enlaces relacionados, copyright y similares.
+  -->
+        <div id="pie">
+            <a href="http://iesalhadra.org/wpAlhadra/"><img src="images/logo.png" alt="Muestra el logo IES Alhadra"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
